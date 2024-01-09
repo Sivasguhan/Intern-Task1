@@ -26,8 +26,12 @@ module.exports = {
                 use: ['babel-loader']
             },
             {
-                test:/\.(scss)$/,
-                use:['style-loader','babel-loader','css-loader']
+                test: /\.(scss)$/,
+                use: ['style-loader', 'babel-loader', 'css-loader']
+            },
+            {
+                test: /\.(jpeg|png)$/,
+                use: ['url-loader']
             }
         ]
     },

@@ -1,0 +1,35 @@
+.main-menu {
+    background: #212121;
+    width: 60px;
+    height: 100vh;
+}
+
+.main-menu svg{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+}
+
+.main-menu li {
+    position: relative;
+    display: block;
+    padding :1rem
+}
+
+.main-menu li:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+    border-color: white
+}
+
+.main-menu ul{
+    display: flex column;
+    justify-content: space-around;
+}
+
+nav ul,
+nav li {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
